@@ -1,4 +1,4 @@
-# Dong-Hee Kim — Academic Homepage
+# Dong-Hee Kim - Academic Homepage
 
 The personal academic website of **Dong-Hee Kim**, a PhD student in Artificial Intelligence at Korea University, researching computer vision, vision-language models, and multimodal agents.
 
