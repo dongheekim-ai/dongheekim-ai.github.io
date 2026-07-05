@@ -108,10 +108,12 @@
         "Ki-Seok Chung"
       ],
       "venue": "VISAPP, 2022",
-      "thumbnail": "images/thumbs/1.jpg",
+      "thumbnail": "images/thumbs/ood.jpg",
       "selected": 1,
       "award": "",
-      "links": {}
+      "links": {
+        "pdf": "http://esoc.hanyang.ac.kr/publications/2022/What-Matters_for_Out-of-Distribution_Detectors_using_Pre-trained_CNN.pdf"
+      }
     },
     {
       "title": "EdgeRL: A Light-Weight C/C++ Framework for On-Device Reinforcement Learning",
@@ -122,10 +124,12 @@
         "Ki-Seok Chung"
       ],
       "venue": "ISOCC, 2021",
-      "thumbnail": "images/thumbs/2.jpg",
+      "thumbnail": "images/thumbs/edgerl.jpg",
       "selected": 1,
       "award": "",
-      "links": {}
+      "links": {
+        "pdf": "http://esoc.hanyang.ac.kr/publications/2021/EdgeRL_A_Light-Weight_C_C_Framework_for_On-Device_Reinforcement_Learning.pdf"
+      }
     },
     {
       "title": "A Confidence-Calibrated MOBA Game Winner Predictor",
