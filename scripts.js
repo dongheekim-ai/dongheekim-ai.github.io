@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Load publications from JSON file
 function loadPublications() {
-  fetch('publications.json')
+  fetch('publications.json?v=' + Date.now(), { cache: 'no-store' })
     .then(response => {
       if (!response.ok) {
         throw new Error(`Network response was not ok: ${response.status}`);
