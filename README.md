@@ -1,6 +1,8 @@
-# Minimal Academic Website Template
+# Dong-Hee Kim — Academic Homepage
 
-A clean, minimal academic website template, designed for researchers and PhD students. The design and source code are from [Yuhui Zhang](https://cs.stanford.edu/~yuhuiz/).
+The personal academic website of **Dong-Hee Kim**, a PhD student in Artificial Intelligence at Korea University, researching computer vision, vision-language models, and multimodal agents.
+
+Built on a clean, minimal academic website template. The design and source code are from [Yuhui Zhang](https://cs.stanford.edu/~yuhuiz/).
 
 ![Screenshot](images/demo.jpg)
 
@@ -8,18 +10,21 @@ A clean, minimal academic website template, designed for researchers and PhD stu
 
 - Minimalist, academic-focused design
 - Responsive layout
-- Easy to customize
 - SEO-friendly meta tags
-- Publication showcase support
+- Publication showcase loaded from `publications.json`
 
-## Quick Start
+## Local Preview
 
 0. Clone this repository and `cd` into the directory
 1. Run `python -m http.server` and visit `http://localhost:8000`
-2. Replace placeholders marked with `[brackets]` in `index.html`
-3. Update profile photo in `images/profile.jpeg`
-4. Modify `publications.json` for your papers
-5. Customize sections as needed (About, Research, News, etc.)
+
+## Customization
+
+- Edit page content (About, Research, News, Experience, Education, Awards, Services, Miscellaneous) in `index.html`
+- Update the publication list in `publications.json`
+- Replace the profile photo at `images/profile.jpg`
+- **Publication thumbnails:** the entries currently reuse the two placeholder images in `images/thumbs/` (`1.jpg`, `2.jpg`). Add real per-paper thumbnails there and point each publication's `thumbnail` field to the correct file.
+- The author-name highlight is controlled in `scripts.js` (`author.includes('Dong-Hee Kim')`)
 
 ## File Structure
 
@@ -29,8 +34,9 @@ A clean, minimal academic website template, designed for researchers and PhD stu
 ├── styles.css          # CSS styling
 ├── scripts.js          # JavaScript for dynamic content
 ├── publications.json   # Publication data
-└── images/            # Image assets
-    └── profile.jpg
+└── images/             # Image assets
+    ├── profile.jpg
+    └── thumbs/         # Publication thumbnails
 ```
 
 ## License
@@ -39,4 +45,4 @@ MIT License
 
 ---
 
-For a live example, visit [Yuhui Zhang's website](https://cs.stanford.edu/~yuhuiz/).
+For the original template and a live example, visit [Yuhui Zhang's website](https://cs.stanford.edu/~yuhuiz/).
