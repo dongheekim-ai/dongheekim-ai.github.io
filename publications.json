@@ -1,6 +1,27 @@
 {
   "publications": [
     {
+      "title": "Beyond Visual Boundaries: Rethinking Scene Segmentation for Movie RAG",
+      "authors": [
+        "Dong-Hee Kim",
+        "Seonwoo Choi",
+        "Changbeen Kim",
+        "Jungmyung Wi",
+        "Juyeon Ko",
+        "Youngju Choi",
+        "Il Hyeon Mun",
+        "Hyunwoo J. Kim",
+        "Donghyun Kim"
+      ],
+      "venue": "NeurIPS 2026 Evaluations and Datasets Track",
+      "thumbnail": "images/thumbs/1.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2608.28699"
+      }
+    },
+    {
       "title": "Spatially Grounded Long-Horizon Task Planning in the Wild",
       "authors": [
         "Sehun Jung*",
