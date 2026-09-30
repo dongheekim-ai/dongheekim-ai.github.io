@@ -280,7 +280,8 @@ section {
 .award-year {
   font-weight: 500;
   color: var(--accent-color);
-  flex: 0 0 80px;
+  flex: 0 0 7.5rem;
+  white-space: nowrap;
 }
 
 .award-desc {

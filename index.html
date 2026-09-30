@@ -37,17 +37,17 @@
 
     <main>
         <section id="about">
-            <p>Hi! I am a PhD student in Artificial Intelligence at Korea University, advised by <a href="https://cs-people.bu.edu/donhk/">Donghyun Kim</a>. I build <strong>multimodal agents that seek, structure, and verify visual evidence across space and time</strong>. Before my PhD, I spent three years as an AI Researcher at <a href="https://www.vuno.co/en">VUNO Inc.</a>, building deep-learning models for medical imaging.</p>
+            <p>Hi! I am a PhD student in Artificial Intelligence at Korea University, advised by <a href="https://cs-people.bu.edu/donhk/">Donghyun Kim</a>, and I collaborate closely with Microsoft Research. I build multimodal agents on top of MLLMs, focusing on how they find and verify visual evidence in 3D scenes and long videos. My work combines reinforcement learning for tool-using agents with new benchmarks and datasets. Before my PhD, I spent three years as an AI Researcher at <a href="https://www.vuno.co/en">VUNO Inc.</a>, building deep-learning models for clinical medical-imaging products.</p>
             <p><strong>I am looking for research internships in 2027.</strong> Feel free to reach out!</p>
         </section>
 
         <section id="research">
             <h2>Research</h2>
-            <p>Reasoning over the visual world requires finding the right evidence, not just seeing more frames or pixels. My work studies how agents acquire, structure, and verify visual evidence along two axes:</p>
+            <p>MLLMs cannot attend to every region of a visual scene or every frame of a visual stream, so they must locate the few pieces of evidence a question depends on. I study how agents built on MLLMs find and verify that evidence:</p>
             <ul>
-                <li><strong>Spatial:</strong> how agents use perceptual tools for 3D spatial reasoning (<a href="https://scaffolded-exploration.github.io/">ICML'26</a>) and ground long-horizon plans in where to act (<a href="https://arxiv.org/pdf/2603.13433">IROS'26</a>).</li>
-                <li><strong>Temporal:</strong> how hours-long videos should be structured into narrative-level retrieval units (<a href="https://arxiv.org/abs/2608.28699">NeurIPS'26 E&amp;D</a>)<!-- VTG: , and how agents retrieve and verify evidence in full-length movies (<a href="ARXIV">Preprint'26</a>) -->.</li>
-                <li><strong>Next:</strong> unifying both into agents that reason over dynamic 4D worlds.</li>
+                <li><strong>Spatial:</strong> In 3D spatial reasoning, RL-trained agents stop calling visual tools even as accuracy rises; we show that tools help most as training-time scaffolding for exploration (<a href="https://scaffolded-exploration.github.io/">ICML'26</a>). We also built a benchmark and a video-to-data pipeline for grounding robot plans in where to act (<a href="https://arxiv.org/pdf/2603.13433">IROS'26</a>).</li>
+                <li><strong>Temporal:</strong> Existing scene segmentation fails to beat uniform chunking as retrieval units for movie RAG; we introduce NarraScene, a narrative-centric dataset whose segments do (<a href="https://arxiv.org/abs/2608.28699">NeurIPS'26 E&amp;D</a>).<!-- VTG: We also build an agent that retrieves and verifies evidence in full-length movies (<a href="ARXIV">Preprint'26</a>). --></li>
+                <li><strong>Next:</strong> agents that seek and verify evidence in dynamic 4D worlds.</li>
             </ul>
             <p>Earlier work: medical imaging, image segmentation (<a href="https://arxiv.org/abs/2505.17695">ICCV-W'25</a>, <a href="https://arxiv.org/abs/2407.10733">Preprint'24</a>), and self-supervised / domain-adaptive learning (<a href="https://arxiv.org/abs/2401.14587">ACCV'24</a>).</p>
         </section>
