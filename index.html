@@ -37,17 +37,17 @@
 
     <main>
         <section id="about">
-            <p>Hi! I am a PhD student in Artificial Intelligence at Korea University, advised by <a href="https://cs-people.bu.edu/donhk/">Donghyun Kim</a>, and I collaborate closely with Microsoft Research. I build multimodal agents on top of MLLMs, focusing on how they find and verify visual evidence in 3D scenes and long videos. My work combines reinforcement learning for tool-using agents with new benchmarks and datasets. Before my PhD, I spent three years as an AI Researcher at <a href="https://www.vuno.co/en">VUNO Inc.</a>, building deep-learning models for clinical medical-imaging products.</p>
-            <p><strong>I am looking for research internships in 2027.</strong> Feel free to reach out!</p>
+            <p>Hi! I am a PhD student in AI at Korea University, advised by <a href="https://utl.korea.ac.kr/team/">Donghyun Kim</a>, and I collaborate with Microsoft Research. I build MLLM-based agents that find and verify visual evidence in 3D scenes and long videos, with first-author papers at ICML and NeurIPS 2026. Before my PhD, I spent three years as an AI Researcher at <a href="https://www.vuno.co/en">VUNO Inc.</a>, completing my military service as Technical Research Personnel.</p>
+            <p><strong>I am looking for research internships in 2027.</strong></p>
         </section>
 
         <section id="research">
             <h2>Research</h2>
-            <p>MLLMs cannot attend to every region of a visual scene or every frame of a visual stream, so they must locate the few pieces of evidence a question depends on. I study how agents built on MLLMs find and verify that evidence:</p>
+            <p>MLLMs cannot attend to every region or frame they are shown, so they must locate the few pieces of evidence a question depends on. I study how MLLM-based agents find, use, and verify that evidence across space and time:</p>
             <ul>
-                <li><strong>Spatial:</strong> In 3D spatial reasoning, RL-trained agents stop calling visual tools even as accuracy rises; we show that tools help most as training-time scaffolding for exploration (<a href="https://scaffolded-exploration.github.io/">ICML'26</a>). We also built a benchmark and a video-to-data pipeline for grounding robot plans in where to act (<a href="https://arxiv.org/pdf/2603.13433">IROS'26</a>).</li>
-                <li><strong>Temporal:</strong> Existing scene segmentation fails to beat uniform chunking as retrieval units for movie RAG; we introduce NarraScene, a narrative-centric dataset whose segments do (<a href="https://arxiv.org/abs/2608.28699">NeurIPS'26 E&amp;D</a>).<!-- VTG: We also build an agent that retrieves and verifies evidence in full-length movies (<a href="ARXIV">Preprint'26</a>). --></li>
-                <li><strong>Next:</strong> agents that seek and verify evidence in dynamic 4D worlds.</li>
+                <li><strong>Spatial:</strong> 3D spatial reasoning from images, where tools help most as scaffolding for exploration during RL training (<a href="https://scaffolded-exploration.github.io/">ICML'26</a>), and grounding plans in where to act (<a href="https://arxiv.org/pdf/2603.13433">IROS'26</a>).</li>
+                <li><strong>Temporal:</strong> structuring hours-long videos into units that retrieval can actually use (<a href="https://arxiv.org/abs/2608.28699">NeurIPS'26 E&amp;D</a>)<!-- VTG: , and retrieving and verifying evidence in full-length movies (<a href="ARXIV">Preprint'26</a>) -->.</li>
+                <li><strong>Spatiotemporal (current focus):</strong> reasoning about how scenes, objects, and the camera itself change over the course of a video, and whether a model's answer truly rests on what it saw.</li>
             </ul>
             <p>Earlier work: medical imaging, image segmentation (<a href="https://arxiv.org/abs/2505.17695">ICCV-W'25</a>, <a href="https://arxiv.org/abs/2407.10733">Preprint'24</a>), and self-supervised / domain-adaptive learning (<a href="https://arxiv.org/abs/2401.14587">ACCV'24</a>).</p>
         </section>
@@ -84,7 +84,7 @@
         <section id="experience">
             <h2>Work Experience</h2>
             <div class="service-category">
-                <div class="service-title">VUNO Inc., AI Researcher (2021.08 - 2024.11)</div>
+                <div class="service-title">VUNO Inc., AI Researcher, Technical Research Personnel (2021.08 - 2024.11)</div>
                 <p>Developed deep-learning models for medical imaging across the BRAIN and Digital Oncology teams, working on brain-MRI parcellation and report generation, clinical validation of DeepBrain products, and cell/lesion segmentation for digital pathology (TIGER Challenge winner).</p>
             </div>
         </section>
