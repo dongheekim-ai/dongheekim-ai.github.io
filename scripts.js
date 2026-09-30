@@ -119,6 +119,13 @@ function createPublicationElement(publication) {
   
   authors.innerHTML = authorsHTML;
   content.appendChild(authors);
+
+  if (publication.collab) {
+    const collab = document.createElement('div');
+    collab.className = 'pub-collab';
+    collab.textContent = publication.collab;
+    content.appendChild(collab);
+  }
   
   // Add venue with award if present
   const venueContainer = document.createElement('div');

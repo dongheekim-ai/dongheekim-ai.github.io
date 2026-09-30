@@ -204,6 +204,13 @@ section {
   line-height: 1.5;
 }
 
+.pub-collab {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--text-secondary);
+  margin-bottom: 0.4rem;
+}
+
 .highlight-name {
   font-weight: 600;
   color: var(--accent-color);
