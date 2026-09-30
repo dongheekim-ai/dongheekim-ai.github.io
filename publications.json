@@ -67,7 +67,7 @@
       ],
       "venue": "Preprint, 2024",
       "thumbnail": "images/thumbs/maskjepa.jpg",
-      "selected": 1,
+      "selected": 0,
       "award": "",
       "links": {
         "pdf": "https://arxiv.org/abs/2407.10733"
@@ -82,7 +82,7 @@
       ],
       "venue": "ICCV DataCV Workshop, 2025",
       "thumbnail": "images/thumbs/synres.jpg",
-      "selected": 1,
+      "selected": 0,
       "award": "",
       "links": {
         "pdf": "https://arxiv.org/abs/2505.17695"
@@ -99,7 +99,7 @@
       ],
       "venue": "ACCV, 2024",
       "thumbnail": "images/thumbs/cngsfda.jpg",
-      "selected": 1,
+      "selected": 0,
       "award": "",
       "links": {
         "pdf": "https://arxiv.org/abs/2401.14587"
@@ -115,7 +115,7 @@
       ],
       "venue": "CCN, 2024",
       "thumbnail": "images/thumbs/ccn.jpg",
-      "selected": 1,
+      "selected": 0,
       "award": "",
       "links": {
         "pdf": "https://2024.ccneuro.org/pdf/9_Paper_authored_CCN2024_AtrophyDynamics_final.pdf"
@@ -130,7 +130,7 @@
       ],
       "venue": "VISAPP, 2022",
       "thumbnail": "images/thumbs/ood.jpg",
-      "selected": 1,
+      "selected": 0,
       "award": "",
       "links": {
         "pdf": "http://esoc.hanyang.ac.kr/publications/2022/What-Matters_for_Out-of-Distribution_Detectors_using_Pre-trained_CNN.pdf"
@@ -146,7 +146,7 @@
       ],
       "venue": "ISOCC, 2021",
       "thumbnail": "images/thumbs/edgerl.jpg",
-      "selected": 1,
+      "selected": 0,
       "award": "",
       "links": {
         "pdf": "http://esoc.hanyang.ac.kr/publications/2021/EdgeRL_A_Light-Weight_C_C_Framework_for_On-Device_Reinforcement_Learning.pdf"
@@ -161,7 +161,7 @@
       ],
       "venue": "Conference on Games (CoG), 2020",
       "thumbnail": "images/thumbs/moba.jpg",
-      "selected": 1,
+      "selected": 0,
       "award": "",
       "links": {
         "pdf": "https://arxiv.org/abs/2006.15521"
@@ -174,7 +174,7 @@
       ],
       "venue": "RSNA & KCR (Oral), 2024",
       "thumbnail": "images/thumbs/1.jpg",
-      "selected": 1,
+      "selected": 0,
       "award": "Best Abstract Award",
       "links": {}
     },
@@ -185,7 +185,7 @@
       ],
       "venue": "AAIC, 2024",
       "thumbnail": "images/thumbs/2.jpg",
-      "selected": 1,
+      "selected": 0,
       "award": "",
       "links": {
         "pdf": "https://alz.confex.com/alz/2024/meetingapp.cgi/Paper/93792"
