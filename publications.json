@@ -1,6 +1,24 @@
 {
   "publications": [
     {
+      "title": "Grounding Confusable Movie Moments",
+      "authors": [
+        "Dong-Hee Kim*",
+        "Seonwoo Choi*",
+        "Changbeen Kim",
+        "Juyeon Ko",
+        "Youngju Choi",
+        "Il Hyeon Mun",
+        "Hyunwoo J. Kim",
+        "Donghyun Kim"
+      ],
+      "venue": "Under review",
+      "thumbnail": "images/thumbs/confusable.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {}
+    },
+    {
       "title": "Beyond Visual Boundaries: Rethinking Scene Segmentation for Movie RAG",
       "authors": [
         "Dong-Hee Kim",
