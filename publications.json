@@ -16,7 +16,9 @@
       "thumbnail": "images/thumbs/confusable.jpg",
       "selected": 1,
       "award": "",
-      "links": {}
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2610.23910"
+      }
     },
     {
       "title": "Beyond Visual Boundaries: Rethinking Scene Segmentation for Movie RAG",
