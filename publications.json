@@ -74,6 +74,8 @@
       "selected": 1,
       "award": "",
       "links": {
+        "pdf": "https://arxiv.org/pdf/2606.00096",
+        "code": "https://github.com/UTLLab/scaffolded-exploration",
         "project": "https://scaffolded-exploration.github.io/"
       }
     },
