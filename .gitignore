@@ -1,1 +1,4 @@
 .DS_Store
+# LaTeX sources (old cv.tex has a phone number); only cv.pdf is published
+/cv.tex
+/cv/
