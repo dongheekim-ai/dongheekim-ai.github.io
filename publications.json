@@ -61,7 +61,8 @@
       "selected": 1,
       "award": "",
       "links": {
-        "pdf": "https://arxiv.org/pdf/2603.13433"
+        "pdf": "https://arxiv.org/pdf/2603.13433",
+        "project": "https://groundedplanning.github.io/GroundedPlanning/"
       }
     },
     {
