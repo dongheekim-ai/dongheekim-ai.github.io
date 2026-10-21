@@ -40,7 +40,8 @@
       "selected": 1,
       "award": "",
       "links": {
-        "pdf": "https://arxiv.org/pdf/2608.28699"
+        "pdf": "https://arxiv.org/pdf/2608.28699",
+        "data": "https://huggingface.co/datasets/queez0405/NarraScene"
       }
     },
     {
