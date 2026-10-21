@@ -17,7 +17,8 @@
       "selected": 1,
       "award": "",
       "links": {
-        "pdf": "https://arxiv.org/pdf/2610.23910"
+        "pdf": "https://arxiv.org/pdf/2610.23910",
+        "data": "https://huggingface.co/datasets/queez0405/CoM2-Bench"
       }
     },
     {
