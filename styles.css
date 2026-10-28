@@ -34,6 +34,12 @@ header {
   flex: 1;
 }
 
+.header-content .email {
+  margin-top: 0.2rem;
+  font-size: 0.9em;
+  color: var(--text-secondary);
+}
+
 .header-image img {
   width: 130px;
   height: 130px;
